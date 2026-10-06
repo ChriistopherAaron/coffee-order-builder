@@ -1,3 +1,4 @@
+// Build Event Listener //
 document.getElementById('buildBtn').addEventListener('click', () => {
     const coffee = document.getElementById('coffeeType').value;
     const milk = document.getElementById('milkType').value;
