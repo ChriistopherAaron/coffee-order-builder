@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Order Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Coffee Order Builder</h1>
+
+        <form id="orderForm">
+            <label for="coffeeType">Choose Coffee Base</label>
+            <select id="coffeeType">
+                <option value="Espresso">Espresso</option>
+                <option value="Cold Brew">Cold Brew</option>
+                <option value="Iced Latte">Iced Latte</option>
+            </select>
+
+            <label for="milkType">Choose Milk Option:</label>
+            <select id="milkType">
+                <option value="Whole Milk">Whole</option>
+                <option value="Oat Milk">Oat Milk</option>
+                <option value="Almond Milk">Almond Milk</option>
+            </select>
+
+            <button type="button" id="buildBtn">Build Order </button>
+        </form>
+
+        <div id="orderSummary" class="summary">
+            <h2>Order Summary</h2>
+            <p id="summaryText">Customize your coffee above and click Build Order!</p>
+        </div>
+    </div>
+    
+</body>
+</html>
