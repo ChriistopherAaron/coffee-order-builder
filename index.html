@@ -12,7 +12,7 @@
         <h1>Coffee Order Builder</h1>
 
         <form id="orderForm">
-            <label for="coffeeType">Choose Coffee Base</label>
+            <label for="coffeeType">Choose Coffee Base:</label>
             <select id="coffeeType">
                 <option value="Espresso">Espresso</option>
                 <option value="Cold Brew">Cold Brew</option>
@@ -24,6 +24,13 @@
                 <option value="Whole Milk">Whole</option>
                 <option value="Oat Milk">Oat Milk</option>
                 <option value="Almond Milk">Almond Milk</option>
+            </select>
+
+            <label for="flavor">Add Flavor Syrup:</label>
+            <select id="flavor">
+                <option value="None">None</option>
+                <option value="Vanilla">Vanilla</option>
+                <option value="Caramel">Caramel</option>
             </select>
 
             <button type="button" id="buildBtn">Build Order </button>
